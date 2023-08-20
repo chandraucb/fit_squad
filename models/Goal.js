@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Post extends Model {}
+class Goal extends Model {}
 
-Post.init(
+Goal.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -14,34 +14,6 @@ Post.init(
     duration: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      defaultValue:30
-    },
-    caption: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-    date: {
-        type: DataTypes.DATE,
-        defaultValue: DataTypes.NOW,
-      },
-    mood_after: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-    mood_before: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-    achieved: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-      },
-    goal_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'goal',
-        key: 'id',
-      },
     },
     workout_id: {
       type: DataTypes.INTEGER,
@@ -63,8 +35,8 @@ Post.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "post",
+    modelName: "goal",
   }
 );
 
-module.exports = Post;
+module.exports = Goal;

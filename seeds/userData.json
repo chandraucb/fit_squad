@@ -1,22 +1,38 @@
 [
   {
-    "name": "Eric",
-    "email": "eric@hotmail.com",
+    "first_name": "Eric",
+    "last_name": "Wang",
+    "email": "eric@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "Kevin",
+    "first_name": "Kevin",
+    "last_name": "Gagante",
     "email": "kevin@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "Junel",
-    "email": "junel@aol.com",
+    "first_name": "Junel",
+    "last_name": "Balbin",
+    "email": "junel@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "Carlos",
-    "email": "carlos@msn.com",
+    "first_name": "Carlos",
+    "last_name": "Baltazar",
+    "email": "carlos@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "first_name": "Chandra",
+    "last_name": "Mohan",
+    "email": "chandra@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "first_name": "Andrew",
+    "last_name": "Berry",
+    "email": "andrew@gmail.com",
     "password": "password12345"
   }
 ]
